@@ -57,7 +57,6 @@ class ClippedView(context: Context) : View(context) {
         drawOutsideClippingExample(canvas)
         drawSkewedTextExample(canvas)
         drawTranslatedTextExample(canvas)
-        // drawQuickRejectExample(canvas)
     }
 
 
@@ -319,7 +318,4 @@ class ClippedView(context: Context) : View(context) {
         }
     }
 
-    private fun drawQuickRejectExample(canvas: Canvas) {
-
-    }
 }
